@@ -10,8 +10,7 @@ on:
       - main
     paths:
       - workflows/**
-  schedule:
-      - cron: "0 0/2 * * *"
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest 
