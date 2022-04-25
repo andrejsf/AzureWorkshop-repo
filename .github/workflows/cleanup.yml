@@ -21,6 +21,6 @@ jobs:
     - name: install azmlcli
       run: az extension add -n azure-cli-ml
     - name: attach to workspace
-      run: az ml folder attach -w AzureWorkshop-ws -g AzureWorkshop-repo
+      run: az ml folder attach -w AzureWorkshop-ws -g AzureWorkshop-rg
     - name: run cleanup script
       run: python cleanup.py  
