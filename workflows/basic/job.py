@@ -3,7 +3,7 @@ from pathlib import Path
 from azureml.core import Workspace, ScriptRunConfig, Experiment, Environment, Dataset
 
 # constants
-compute_name = "local"  # use "local" for local execution cpu2-ram16-hdd50
+compute_name = "cpu2-ram16-hdd50"  # use "local" for local execution cpu2-ram16-hdd50
 source_dir = "src"
 entry_script = "train.py"
 environment_name = "AzureWorkshop-env"
