@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--subscription-id", type=str, default=None)
 parser.add_argument("--workspace-name", type=str, default="AzureWorkshop-ws")
 parser.add_argument("--resource-group", type=str, default="AzureWorkshop-rg")
-parser.add_argument("--location", type=str, default=None)
+parser.add_argument("--location", type=str, default='westeurope')
 args = parser.parse_args()
 
 # define aml compute target(s) to create
