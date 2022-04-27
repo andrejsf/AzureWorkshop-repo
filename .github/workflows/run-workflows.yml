@@ -3,8 +3,6 @@ on:
   push: 
     branches:
       - main
-    paths:
-      - workflows/**
   pull_request:
     branches:
       - main
