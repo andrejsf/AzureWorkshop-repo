@@ -53,6 +53,7 @@ jupyter-client==7.2.2
 jupyter-core==4.10.0
 kiwisolver==1.4.2
 knack==0.9.0
+lightgbm==3.3.2
 matplotlib==3.5.1
 mlflow-skinny==1.25.1
 msal==1.17.0
